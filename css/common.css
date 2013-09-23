@@ -533,12 +533,18 @@ h3 {
 #api .content {
   padding-bottom: 25px;
 }
+
+#api .content h3 {
+  background: none;
+  font-size: 73px;
+  font-weight:bold;
+}
 #api .content p {
-  font-size: 16px;
+  font-size: 22px;
   line-height: 1.6;
   color: #fff;
-  font-family: Arial;
-  margin-bottom: 25px;
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  margin-bottom: 10px;
 }
 #api .content p:last-child {
   margin-bottom: 0;
