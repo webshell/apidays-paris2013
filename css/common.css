@@ -512,15 +512,15 @@ h3 {
 #sponsors ul li.first {
   margin-left: 100px;
 }
-#sponsors ul.gold {
+#sponsors ul.gold, #sponsors ul.bronze, #sponsors ul.silver, #sponsors ul.media {
   width: 580px;
   margin: 0 auto;
 }
-#sponsors ul.silver {
+/*#sponsors ul.bronze {
   width: 385px;
   margin: 0 auto;
-}
-#sponsors ul.gold li {
+}*/
+#sponsors ul.gold li, #sponsors ul.bronze li, #sponsors ul.silver li, #sponsors ul.media li {
   margin-bottom: 0;
 }
 #api {
