@@ -512,6 +512,9 @@ h3 {
 #sponsors ul li.first {
   margin-left: 100px;
 }
+#sponsors ul li.first3 {
+  margin-left: 0px;
+}
 #sponsors ul.gold, #sponsors ul.bronze, #sponsors ul.silver, #sponsors ul.media {
   width: 580px;
   margin: 0 auto;

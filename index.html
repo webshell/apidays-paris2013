@@ -15,6 +15,15 @@
 		<title>APIdays</title>
 	</head>
 	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
 		<div id="wrapper">
 			<nav id="nav">
 				<div class="wrapper-content">
@@ -50,6 +59,13 @@
 							<span class="picto">Picto</span>
 							<span class="name">Apply for a keynote</span>
 						</a>
+					</div>
+					<div style="margin: 50px 0; text-align: center; padding-bottom: 50px">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://paris.apidays.io/2013" data-text="APIDays conference, the 3rd &amp; 4th december 2013 in Paris - APIs are the Future of Software" data-via="apidays2013">Tweet</a>
+						<a href="https://twitter.com/apidays2013" class="twitter-follow-button" data-show-count="false">Follow @apidays2013</a>
+						<div class="fb-like" data-href="http://paris.apidays.io/2013" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false" style="margin-left: 20px"></div>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 					</div>
 				</div>
 			</div>
@@ -276,6 +292,7 @@
 								<h4>Reuben Katz</h4>
 								<span class="desc">CEO &amp; Founder</span>
 								<span class="bottom"><span>GEEKLIST</span></span>
+
 							</a>
 						</li>
 
@@ -397,7 +414,7 @@
 					<h3>Sponsors &amp; media</h3>
 					<h4>Gold</h4>
 					<ul class="gold">
-						<li class="first">
+						<li class="first3">
 							<a href="http://www.hp.com/fr" rel="external">
 								<div class="logo">
 									<div>
@@ -415,6 +432,16 @@
 									</div>
 								</div>
 								<span class="name">APISpark by Reslet</span>
+							</a>
+						</li>
+						<li>
+							<a href="http://www.layer7tech.com/" rel="external">
+								<div class="logo">
+									<div>
+										<img src="img/layer7.png" alt="Layer7">
+									</div>
+								</div>
+								<span class="name">LAYER7 Technologies</span>
 							</a>
 						</li>
 					</ul>
