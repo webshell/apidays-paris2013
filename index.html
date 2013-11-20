@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
+		<title>APIdays, the premier conference on APIs, Cloud, Big Data in Paris, Champs Élysées</title>
 		<meta charset="utf-8" />
-		<meta name="description" content="APIDays conference, the 3rd & 4th december 2013 in Paris - APIs are the Future of Software" />
+		<meta name="description" content="APIDays conference, the 4th & 5th december 2013 in Paris - APIs are the Future of Software" />
 		<meta name="keywords" content="tags" />
 		<link rel="stylesheet" media="all" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" media="all" type="text/css" href="css/common.css" />
 		<link rel="stylesheet" media="all" type="text/css" href="css/fonz.css" />
-        <link rel="icon" type="image/ico" href="http://paris.apidays.io/2013/apidays.ico">
-        <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200" rel="stylesheet" type="text/css">
+		<link rel="image_src" href="http://paris.apidays.io/2013/apidays.jpg" / >
+		<link rel="icon" type="image/ico" href="http://paris.apidays.io/2013/apidays.ico">
+		<link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300,200" rel="stylesheet" type="text/css">
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -17,11 +19,11 @@
 	<body>
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-		  fjs.parentNode.insertBefore(js, fjs);
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
 
 		<div id="wrapper">
@@ -30,10 +32,10 @@
 					<h1 id="logo"><a href="#home"><img src="img/logo-apydays.png" alt="Apydays"></a></h1>
 					<ul id="menu">
 						<li class="current"><a href="#home">Home</a></li>
+						<li><a href="#program">Program</a></li>
 						<li><a href="#speakers">Speakers</a></li>
 						<li><a href="#sponsors">Sponsors</a></li>
 						<li><a href="#organizers">Organizers</a></li>
-                        <li><a href="#api">Program</a></li>
 						<li><a href="#pratical">Practical details</a></li>
 					</ul>
 				</div>
@@ -43,616 +45,1105 @@
 					<div class="logo-home">
 						<img src="img/logo-apydays-home.png" alt="APIdays">
 					</div>
-                    <div class="question">
-                        <h1>APIs are the Future of Software</h1>
-                        <h2>Leverage Mobile, Big Data and <br/> Cloud technologies to grow your business </h2>
-                    </div>
+					<div class="question">
+						<h1>APIs &amp; the Future of Software</h1>
+						<h2>Turn the APIs, Internet of Things <br/> and Data deluge into business fuel </h2>
+					</div>
 					<div class="date">
 						<h2>DECEMBER 4 &amp; 5, 2013 <br>Paris, FRANCE</h2>
 					</div>
-					<div class="btn">
-						<a href="http://www.apidays2013.eventbrite.fr" class="register" rel="external">
-							<span class="picto">Picto</span>
-							<span class="name">register</span>
-						</a>
-						<a href="mailto:contact@apidays.io" class="keynote" rel="external">
-							<span class="picto">Picto</span>
-							<span class="name">Apply for a keynote</span>
-						</a>
+					<div>
+						<div class="btn">
+							<a style="width: 443px; margin: 0 auto; float: none; display: block" href="http://www.apidays2013.eventbrite.fr" class="keynote" rel="external">
+								<span class="picto"></span>
+								<span class="name">register to the conference</span>
+							</a>
+						</div>
+						<div style="color: white; font-size: 1.9em; margin-top: 40px;text-align: center">
+							<span>API Hackday &amp; &lt; code for &gt; Paris/Region by Cap Digital</span>
+							<br />
+							<span>December 6, 7 &amp; 8</span>
+							<span>ICI Montreuil, Montreuil</span>
+						</div>
+						<div class="btn" style="margin-top: 15px">
+							<a style="width: 396px; margin: 0 auto; float: none; display: block" href="http://www.eventbrite.fr/e/billets-api-hackday-code-for-paris-region-8611424001" class="register" rel="external">
+								<span class="picto"></span>
+								<span class="name">register to API Hackday</span>
+							</a>
+						</div>
 					</div>
-					<div style="margin: 50px 0; text-align: center; padding-bottom: 50px">
-						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://paris.apidays.io/2013" data-text="APIDays conference, the 3rd &amp; 4th december 2013 in Paris - APIs are the Future of Software" data-via="apidays2013">Tweet</a>
+					<div style="padding-top: 50px; text-align: center; padding-bottom: 34px">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://paris.apidays.io/2013" data-text="APIDays conference, the 4th &amp; 5th december 2013 in Paris - APIs are the Future of Software" data-via="apidays2013">Tweet</a>
 						<a href="https://twitter.com/apidays2013" class="twitter-follow-button" data-show-count="false">Follow @apidays2013</a>
-						<div class="fb-like" data-href="http://paris.apidays.io/2013" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false" style="margin-left: 20px"></div>
+						<div class="fb-like" data-href="http://paris.apidays.io/2013" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false" style="margin-left: 20px; margin-right: 20px"></div>
 						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+						<script src="//platform.linkedin.com/in.js" type="text/javascript">
+						 lang: en_US
+						</script>
+						<script type="IN/Share" data-url="http://paris.apidays.io/2013?refid=LinkedIn" data-counter="right"></script>
 
 					</div>
 				</div>
 			</div>
-
-<!--		<div id="program" data-backstretch="img/bg-program.jpg">
+			<div id="program" data-backstretch="img/bg-program2.jpg">
 				<div class="wrapper-content">
 					<h3>Program</h3>
 					<div class="double-cols program">
 						<div class="left">
-							<h4>day 1</h4>
+							<h4>December 4</h4>
 							<ul>
 								<li>
-									<span class="hours">09.30</span>
-									<span class="activity">Opening with Patrick Boubalieste / CEO of Whatthefuck?#</span>
+									<span class="hours">Opening Speech - 8.45 a.m</span>
 								</li>
 								<li>
-									<span class="hours">10.30</span>
-									<span class="activity">Is my api my best friend by John Delaoutch / lead developper @ Quanum</span>
+									<span class="activity">Stephane Distinguin, FABERNOVEL</span>
+									<span class="activity">Mehdi Medjaoui, Webshell</span>
+								</li>
+								<li class="hr_long_bt">
+									<span class="hours">DELIVER - 9.00 a.m</span>
+									<span class="activity">Real-time IT for real-time business: learn how APIs can cut by X4 development, testing and deployment time of services, products and business applications.</span>
 								</li>
 								<li>
-									<span class="hours">11.30</span>
-									<span class="activity">Vestibulum et nisi ipsum. Suspendisse nec nisi non orci elementum porttitor sit amet a sapien. by John Delaoutch / lead developper @ Quanum</span>
+									<span class="activity2"><b>APIs &amp; the Future of Software</b></span>
+									<span class="speakers">Mike Amundsen, Layer7</span>
+									<span class="speakers">Jean-Marc Defaut, HP France</span>
+									<span class="speakers">Jerome Louvel, Restlet &amp; APISpark</span>
+								</li>
+								<li class="hr_short"></li>
+								<li>
+									<span class="activity2"><b>Internal Challenges: MONITORING &amp; SECURITY</b></span>
+									<span class="speakers">Andy Thurai, Intel</span>
+									<span class="speakers">Isabelle Mauny, WS02</span>
+									<span class="speakers">Olivier Laplace, SOA Software</span>
+								</li>
+								<li class="hr_short"></li>
+								<li>
+									<span class="activity2"><b>Internal challenges: SCALABILITY</b></span> 
+									<span class="speakers">Alex Toussaint, Salesforce</span>
+									<span class="speakers">Renaud Visage, Eventbrite</span>
+									<span class="speakers">Ken Wronkiewicz, Rackspace</span>
+									<span class="speakers">Quentin Adam, CleverCloud</span>  
+								</li>
+								<li class="hr_short"></li>
+								<li>
+									<span class="activity2"><b>Panels</b></span> 
+									<span class="speakers">- Human Ressources to Open APIs</span> 
+									<span class="speakers">- APIs: technologies that scale</span>
+								</li>
+								<li class="hr_long_bt">
+									<span class="hours">EXPAND - 2 p.m</span>
+									<span class="activity">Turn data junk food into ROI: reach more efficiently your future customers and transform unstructured data in new revenue.</span>
 								</li>
 								<li>
-									<span class="hours">12.30</span>
-									<span class="activity">Is my api my best friend by John Delaoutch / lead developper @ Quanum</span>
+									<span class="activity2"><b>API Strategy</b></span>
+									<span class="speakers">Nicolas Robbe, IBM</span>
+									<span class="speakers">Cyril Vart, FABERNOVEL</span>
+									<span class="speakers">Johnatan Bourguignon, API500</span>    
 								</li>
+								<li class="hr_short"></li>
 								<li>
-									<span class="hours">13.30</span>
-									<span class="line">BON APITITE !!!</span>
+									<span class="activity2"><b>Developer Experience and APIs Design</b></span>
+									<span class="speakers">Ronnie Mitra, Layer7</span>
+									<span class="speakers">Jakub Nesetril, Apiary.io</span>
+									<span class="speakers">Kevin Nelson, Rdio</span>
+									<span class="speakers">Dan Feist, Mulesoft</span>
+									<span class="speakers">Ronnie Mitra, Layer7</span>
 								</li>
+								<li class="hr_short"></li>
 								<li>
-									<span class="hours">15.00</span>
-									<span class="activity">Opening with Patrick Boubalieste / CEO of Whatthefuck?#</span>
+									<span class="activity2"><b>Panel APIs &amp; Telecom</b></span>
+									<span class="speakers">- Luis Borges Quina, APIDaze </span>
+									<span class="speakers">- Xavier Perret, Orange</span>
 								</li>
+								<li class="hr_short"></li>
 								<li>
-									<span class="hours">16.30</span>
-									<span class="activity">Opening with Patrick Boubalieste / CEO of Whatthefuck?#</span>
+									<span class="activity2"><b>API Economy trends and Business models</b></span>
+									<span class="speakers">Alex Williams, Techcrunch</span>
+									<span class="speakers">Guillaume Balas, 3Scale</span>
+									<span class="speakers">Elie Chevignard, Mailjet</span>
+								</li>  
+								<li class="hr_short"></li>
+								<li>
+									<span class="activity2"><b>Developer Outreach &amp; Evangelism</b></span>
+									<span class="speakers">Adam Duvander, Sendgrid</span>
+									<span class="speakers">Amit Jowani, Mashery</span>
+									<span class="speakers">Reuben Katz, Geekli.st</span>
+								</li>    
+								<li class="hr_short"></li>
+								<li>
+									<span class="activity2"><b>Panels</b></span> 
+									<span class="speakers">- Philosophy and APIs</span>
+									<span class="speakers">- Webservices: State of the Art</span>
 								</li>
+								<li class="hr_short"></li>
 								<li>
-									<span class="hours">17.30</span>
-									<span class="activity">Opening with Patrick Boubalieste / CEO of Whatthefuck?#</span>
-								</li>
-								<li>
-									<span class="hours">18.30</span>
-									<span class="activity">Opening with Patrick Boubalieste / CEO of Whatthefuck?#</span>
-								</li>
-								<li>
-									<span class="hours">19.00</span>
-									<span class="line">APIDRINK</span>
+									<span class="hours">End of the day - 6 p.m</span>
 								</li>
 							</ul>
 						</div>
 						<div class="right">
-							<h4>day 1</h4>
+							<h4>December 5</h4>
 							<ul>
-								<li>
-									<span class="hours">09.30</span>
-									<span class="activity">Opening with Patrick Boubalieste / CEO of Whatthefuck?#</span>
+								<li class="hr_long_b">
+									<span class="hours">INNOVATE - 9.00 a.m</span>
+									<span class="activity">The cloud as a corporate incubator: automate your open innovation processes by designing products and services as platforms. Enrich the experience with open APIs.</span>
 								</li>
 								<li>
-									<span class="hours">10.30</span>
-									<span class="activity">Is my api my best friend by John Delaoutch / lead developper @ Quanum</span>
+									<span class="activity2"><b>APIs and Social Networks</b></span>
+									<span class="speakers">Laurent Solly, Facebook</span>
+									<span class="speakers">Philippe Sayegh, Janrain</span>
+									<span class="speakers">Shane Caraveo, Mozilla</span>
 								</li>
+								<div class="hr_short"></div>
 								<li>
-									<span class="hours">11.30</span>
-									<span class="activity">Vestibulum et nisi ipsum. Suspendisse nec nisi non orci elementum porttitor sit amet a sapien. by John Delaoutch / lead developper @ Quanum</span>
+									<span class="activity2"><b>APIs and Media Content</b></span>
+									<span class="speakers">Kevin Nelson, Rdio</span>
+									<span class="speakers">Julie Knibbe, Deezer</span>
+									<span class="speakers">Paul Osman, Soundcloud</span>
+									<span class="speakers">Jeff Boudier, Stupeflix</span>
 								</li>
+								<div class="hr_short"></div>
 								<li>
-									<span class="hours">12.30</span>
-									<span class="activity">Is my api my best friend by John Delaoutch / lead developper @ Quanum</span>
+									<span class="activity2"><b>Material for do-ers: APIs as a Datasource</b></span>
+									<span class="speakers">Tony Blank, Context.io</span>
+									<span class="speakers">Eduardo Basterrechea &amp; Elena Alvarez, APICultur</span>
+									<span class="speakers">Tschela Baumann, Paymill</span>
 								</li>
+								<div class="hr_short"></div>
 								<li>
-									<span class="hours">13.30</span>
-									<span class="line">BON APITITE !!!</span>
+									<span class="activity2"><b>REST &amp; Hypermedia</b></span>
+									<span class="speakers">Steve Klabnik, Hypermedia Evangelist</span>
+									<span class="speakers">Mike Kelly, Stateless Ltd</span>
+									<span class="speakers">Ori Pekelman, API Evangelist</span>
 								</li>
+								<div class="hr_short"></div>
 								<li>
-									<span class="hours">15.00</span>
-									<span class="activity">Opening with Patrick Boubalieste / CEO of Whatthefuck?#</span>
+									<span class="activity2"><b>Panel</b></span>
+									<span class="speakers">- Feedback about API Implementation</span>
+									<span class="speakers">- APIs and the future of Internet</span>
+								</li>    
+								<li class="hr_long_bt">
+									<span class="hours">SECURE - 2 p.m</span>
+									<span class="activity">OpenData &amp; Citizenship: around experts roundtables, think upon the issues of security and privacy: control, certification and identity on the web.</span>
 								</li>
-								<li>
-									<span class="hours">16.30</span>
-									<span class="activity">Opening with Patrick Boubalieste / CEO of Whatthefuck?#</span>
+								<li><span class="activity2"><b>APIs &amp; Internet of Things</b></span>
+									<span class="speakers">Rafi Haladjian, Sens.se</span>
+									<span class="speakers">Benjamin Cabé, Sierra Wireless</span>
+									<span class="speakers">Mathias Herberts, Cityzen Data</span>
+									<span class="speakers">Jeremiah Lee, Fitbit</span>
 								</li>
+								<div class="hr_short"></div>
 								<li>
-									<span class="hours">17.30</span>
-									<span class="activity">Opening with Patrick Boubalieste / CEO of Whatthefuck?#</span>
+									<span class="activity2"><b>APIs &amp; Mobile</b></span>
+									<span class="speakers">Romain Goyet, Applidium</span> 
+									<span class="speakers">Aurelien Pelletier, SFEIR</span>
 								</li>
+								<div class="hr_short"></div>
 								<li>
-									<span class="hours">18.30</span>
-									<span class="activity">Opening with Patrick Boubalieste / CEO of Whatthefuck?#</span>
+									<span class="activity2"><b>APIs &amp; for Sharing Economy: Education Knowledge and Good </b></span>
+									<span class="speakers">Kin Lane, White House Innovation Fellow</span> 
+									<span class="speakers">Audrey Watters, Hackeducation.com</span>
+									<span class="speakers">Kat Borlongan, FivebyFive</span>
 								</li>
+								<div class="hr_short"></div>
 								<li>
-									<span class="hours">19.00</span>
-									<span class="line">APIDRINK</span>
+									<span class="activity2"><b>APIs &amp; Open Data and Open Government</b></span>
+									<span class="speakers">&lt; code for &gt; Paris/Region by Cap Digital, Elisabeth Racine</span>
+									<span class="speakers">Chris Metcalf, Socrata</span> 
+									<span class="speakers">Jean-Marc Lazard, OpenDataSoft</span>
+									<span class="speakers">Gael Musquet, OpenStreetMap France</span>
+									<span class="speakers">Simon Redfern, Open Bank Project</span>
+								</li>
+								<div class="hr_short"></div>
+								<li>
+									<span class="activity2"><b>Panels</b></span>
+									<span class="speakers">- APIs &amp; Banking/Insurance with Carlos Buchowsky, BBVA</span>
+									<span class="speakers">- APIs Oriented Programming</span> 
+								</li>   
+								<div class="hr_short"></div>
+								<li>
+									<span class="hours">CLOSURE &amp; API party - 6 p.m</span>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-			</div>-->
-            			<div id="speakers">
-				<div class="wrapper-content">
-					<h3>speakers</h3>
-					<p class="intro">APIdays is proud and thankful to welcome a huge panel of international experts of the API, Cloud and Big Data world.</p>
-					<ul>
-                        <li class="first">
-							<a href="https://twitter.com/mamund" rel="external">
-								<img src="img/SP2/Mike_Admunsen.png" alt="Thumb">
-								<h4>Mike Admunsen</h4>
-								<span class="desc">Chief API architect</span>
-								<span class="bottom"><span>LAYER7</span></span>
-							</a>
-						</li>
-                        <li>
-							<a href="http://www.linkedin.com/in/kinlane" rel="external">
-								<img src="img/SP2/Kin_Lane.png" alt="Thumb">
-								<h4>Kin Lane</h4>
-								<span class="desc">Presidential innovation fellow</span>
-								<span class="bottom"><span>API evangelist</span></span>
-							</a>
-						</li>
-                        <li>
-							<a href="http://www.linkedin.com/pub/luc-julia/0/11/975" rel="external">
-								<img src="img/SP2/Luc_Julia.png" alt="Thumb">
-								<h4>Luc Julia</h4>
-								<span class="desc">VP &amp; Innovation Fellow</span>
-								<span class="bottom"><span>SAMSUNG ELECTRONICS</span></span>
-							</a>
-						</li>
-                         <li>
-							<a href="http://www.linkedin.com/in/jeanmarcdefaut" rel="external">
-								<img src="img/SP2/Jean-Marc-Defaut.jpg" alt="Thumb">
-								<h4>Jean-Marc Defaut</h4>
-								<span class="desc">Director Cloud Computing</span>
-								<span class="bottom"><span>HP France</span></span>
-							</a>
-						</li>
-                        <li>
-							<a href="http://www.linkedin.com/pub/luc-julia/0/11/975" rel="external">
-								<img src="img/SP2/Renaud_Visage.png" alt="Thumb">
-								<h4>Renaud Visage</h4>
-								<span class="desc">CTO</span>
-								<span class="bottom"><span>EVENTBRITE</span></span>
-							</a>
-						</li >
-                        	<li class="first">
-							<a href="http://www.linkedin.com/in/jlouvel" rel="external">
-								<img src="img/SP2/Jerome_Louvel.png" alt="Thumb">
-								<h4>Jérôme Louvel</h4>
-								<span class="desc">CEO</span>
-								<span class="bottom"><span>RESTLET &amp; APISPARK</span></span>
-							</a>
-						</li>
-                         <li>
-							<a href="http://www.linkedin.com/in/duvander" rel="external">
-								<img src="img/SP2/Adam_Duvander.png" alt="Thumb">
-								<h4>Adam Duvander</h4>
-								<span class="desc">Developer Relations Dir.</span>
-								<span class="bottom"><span>SENDGRID</span></span>
-							</a>
-						</li>
-                        <li>
-							<a href="https://twitter.com/steveklabnik" rel="external">
-								<img src="img/SP2/Steve_Klabnik.png" alt="Thumb">
-								<h4>Steve Klabnik</h4>
-								<span class="desc">Hypermedia evangelist</span>
-								<span class="bottom"><span>Ruby Hero</span></span>
-							</a>
-						</li>
-                        <li>
-							<a href="http://www.linkedin.com/in/guillaumebalas" rel="external">
-								<img src="img/SP2/Guillaume_Balas.png" alt="Thumb">
-								<h4>Guillaume Balas</h4>
-								<span class="desc">CMO</span>
-								<span class="bottom"><span>3SCALE</span></span>
-							</a>
-						</li>
-
-                        <li >
-							<a href="http://fr.linkedin.com/in/romainlalanne" rel="external">
-								<img src="img/SP2/Romain_Lalanne.png" alt="Thumb">
-								<h4>Romain Lalanne</h4>
-								<span class="desc">Responsable Open Data</span>
-								<span class="bottom"><span>SNCF</span></span>
-							</a>
-						</li>
-                        <li class="first">
-							<a href="http://shane.caraveo.com/" rel="external">
-								<img src="img/SP2/Shane_Caraveo.png" alt="Thumb">
-								<h4>Shane Caraveo</h4>
-								<span class="desc">Social API </span>
-								<span class="bottom"><span>MOZILLA</span></span>
-							</a>
-						</li>
-                        <li>
-							<a href="https://twitter.com/iChaib" rel="external">
-								<img src="img/SP2/Simon_Redfern.png" alt="Thumb">
-								<h4>Simon Redfern</h4>
-								<span class="desc">Founder</span>
-								<span class="bottom"><span>OpenData Bank Project</span></span>
-							</a>
-						</li>
-                        <li>
-							<a href="http://www.linkedin.com/in/eliechevignard" rel="external">
-								<img src="img/SP2/Elie_Chevignard.png" alt="Thumb">
-								<h4>Elie Chevignard</h4>
-								<span class="desc">CMO</span>
-								<span class="bottom"><span>MAILJET</span></span>
-							</a>
-						</li>
-                        <li>
-							<a href="http://www.linkedin.com/in/ajotwani" rel="external">
-								<img src="img/SP2/Amit_Jotwani.png" alt="Thumb">
-								<h4>Amit Jotwani</h4>
-								<span class="desc">Developer Evangelist</span>
-								<span class="bottom"><span>MASHERY</span></span>
-							</a>
-						</li>
-                        <li >
-							<a href="http://www.linkedin.com/in/reubenkatz" rel="external">
-								<img src="img/SP2/Reuben_Katz.png" alt="Thumb">
-								<h4>Reuben Katz</h4>
-								<span class="desc">CEO &amp; Founder</span>
-								<span class="bottom"><span>GEEKLIST</span></span>
-
-							</a>
-						</li>
-
-                        <li class="first">
-							<a href="http://www.linkedin.com/in/sarid" rel="external">
-								<img src="img/SP2/Uri_Sarid.png" alt="Thumb">
-								<h4>Uri Sarid</h4>
-								<span class="desc">CTO</span>
-								<span class="bottom"><span>MULESOFT</span></span>
-							</a>
-						</li>
-                        <!-- <li>
-							<a href="http://www.linkedin.com/pub/olivier-laplace/3/147/182" rel="external">
-								<img src="img/SP/Olivier_Laplace.jpg" alt="Thumb">
-								<h4>Olivier Laplace</h4>
-								<span class="desc">CTO France</span>
-								<span class="bottom"><span>SOA SOFTWARE</span></span>
-							</a>
-						</li> -->
-
-                        <li>
-							<a href="http://www.linkedin.com/in/isamauny" rel="external">
-								<img src="img/SP2/Isabelle_Mauny.png" alt="Thumb">
-								<h4>Isabelle Mauny</h4>
-								<span class="desc">Product Management Dir.</span>
-								<span class="bottom"><span>WSO2</span></span>
-							</a>
-						</li>
-                        <li >
-							<a href="http://www.linkedin.com/in/chrismetcalf" rel="external">
-								<img src="img/SP2/Chris_Metcalf.png" alt="Thumb">
-								<h4>Chris Metcalf</h4>
-								<span class="desc">Developper Platform Dir.</span>
-								<span class="bottom"><span>SOCRATA</span></span>
-							</a>
-						</li>
-
-                        <li>
-							<a href="http://www.linkedin.com/in/rknla" rel="external">
-								<img src="img/SP2/Kevin_Nelson.png" alt="Thumb">
-								<h4>Kevin Nelson</h4>
-								<span class="desc">API Engineer</span>
-								<span class="bottom"><span>RD.IO</span></span>
-							</a>
-						</li>
-                        <li  >
-							<a href="http://www.linkedin.com/in/nesetril" rel="external">
-								<img src="img/SP2/Jakub_Nesetril.png" alt="Thumb">
-								<h4>Jakub Nesetril</h4>
-								<span class="desc">CEO</span>
-								<span class="bottom"><span>APIARY.IO</span></span>
-							</a>
-						</li>
-                        <li class="first">
-							<a href="http://ca.linkedin.com/in/paulosman" rel="external">
-								<img src="img/SP2/Paul_Osman.png" alt="Thumb">
-								<h4>Paul Osman</h4>
-								<span class="desc">API Evangelist</span>
-								<span class="bottom"><span>SOUNDCLOUD</span></span>
-							</a>
-						</li>
-						  <li>
-							<a href="http://www.linkedin.com/in/ronniemitra" rel="external">
-								<img src="img/SP2/Ronnie_Mitra.png" alt="Thumb">
-								<h4>Ronnie Mitra</h4>
-								<span class="desc">API architect</span>
-								<span class="bottom"><span>LAYER7</span></span>
-							</a>
-						</li>
-
-						<li>
-							<a href="http://nz.linkedin.com/in/fmarier" rel="external">
-								<img src="img/SP2/Francois_Marier.png" alt="Thumb">
-								<h4>Francois Marier</h4>
-								<span class="desc">Identity Hacker</span>
-								<span class="bottom"><span>Mozilla</span></span>
-							</a>
-						</li><li>
-							<a href="http://www.linkedin.com/in/aurelienpelletier" rel="external">
-								<img src="img/SP2/Aurelien_Pelletier.png" alt="Thumb">
-								<h4>Aurelien Pelletier</h4>
-								<span class="desc">CTO</span>
-								<span class="bottom"><span>SFEIR</span></span>
-							</a>
-						</li>
-                        <li >
-							<a href="http://www.linkedin.com/in/aurelienpelletier" rel="external">
-								<img src="img/SP2/GaelMusquet.png" alt="Thumb">
-								<h4>Gael Musquet</h4>
-								<span class="desc">Président</span>
-								<span class="bottom"><span>OpenStreetMap France</span></span>
-							</a>
-						</li>
-                    </ul>
-                    <p class="intro">More to come...</p>
-                    <div class="btn" style="margin-bottom: 80px">
-						<a href="http://www.apidays2013.eventbrite.fr" class="register" rel="external">
-							<span class="picto">Picto</span>
-							<span class="name">register</span>
+		</div>
+		<div id="speakers">
+			<div class="wrapper-content">
+				<h3>speakers</h3>
+				<p class="intro">APIdays is proud and thankful to welcome a huge panel of international experts of the API, Cloud and Big Data world.</p>
+				<ul>
+					<li class="first">
+						<a href="http://www.linkedin.com/in/jeanmarcdefaut" rel="external">
+							<img src="img/SP2/Jean-Marc-Defaut.jpg" alt="Thumb">
+							<h4>Jean-Marc Defaut</h4>
+							<span class="desc">Director Cloud Computing</span>
+							<span class="bottom"><span>HP France</span></span>
 						</a>
-						<a href="mailto:contact@apidays.io" class="keynote" rel="external">
-							<span class="picto">Picto</span>
-							<span class="name">Apply for a keynote</span>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/jlouvel" rel="external">
+							<img src="img/SP2/Jerome_Louvel.png" alt="Thumb">
+							<h4>Jérôme Louvel</h4>
+							<span class="desc">CEO</span>
+							<span class="bottom"><span>RESTLET &amp; APISPARK</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/mamund" rel="external">
+							<img src="img/SP2/Mike_Admunsen.png" alt="Thumb">
+							<h4>Mike Admunsen</h4>
+							<span class="desc">Chief API architect</span>
+							<span class="bottom"><span>LAYER7</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/andythurai" rel="external">
+							<img src="img/SP2/Andy_Thurai.jpg" alt="Thumb">
+							<h4>Andy Thurai</h4>
+							<span class="desc">Chief Architect &amp; CTO</span>
+							<span class="bottom"><span>Intel ASIP</span></span>
+						</a>
+					</li>
+					<li >
+						<a href="http://www.linkedin.com/in/nrobbe " rel="external">
+							<img src="img/SP2/Nicolas_Robbe.jpg" alt="Thumb">
+							<h4>Nicolas Robbe</h4>
+							<span class="desc">Director Product Management</span>
+							<span class="bottom"><span>IBM</span></span>
+						</a>
+					</li>
+					<li class="first">
+						<a href="http://www.linkedin.com/in/kinlane" rel="external">
+							<img src="img/SP2/Kin_Lane.png" alt="Thumb">
+							<h4>Kin Lane</h4>
+							<span class="desc">Presidential innovation fellow</span>
+							<span class="bottom"><span>API evangelist</span></span>
+						</a>
+					</li>
+					<!--<li >
+						<a href="http://www.linkedin.com/pub/luc-julia/0/11/975" rel="external">
+							<img src="img/SP2/Luc_Julia.png" alt="Thumb">
+							<h4>Luc Julia</h4>
+							<span class="desc">VP &amp; Innovation Fellow</span>
+							<span class="bottom"><span>SAMSUNG ELECTRONICS</span></span>
+						</a>
+					</li>-->
+					<li >
+						<a href="https://twitter.com/laurentsolly" rel="external">
+							<img src="img/SP2/Laurent_Solly.jpg" alt="Thumb">
+							<h4>Laurent Solly</h4>
+							<span class="desc">DG France</span>
+							<span class="bottom"><span>Facebook</span></span>
+							</a>
+					</li>
+					 <li>
+						<a href="http://www.linkedin.com/pub/cyril-vart/14/38/b" rel="external">
+							<img src="img/SP2/Cyril_Vart.jpg" alt="Thumb">
+							<h4>Cyril Vart</h4>
+							<span class="desc">VP Strategy</span>
+							<span class="bottom"><span>FABERNOVEL</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="www.linkedin.com/in/renaudvisage" rel="external">
+							<img src="img/SP2/Renaud_Visage.png" alt="Thumb">
+							<h4>Renaud Visage</h4>
+							<span class="desc">CTO</span>
+							<span class="bottom"><span>EVENTBRITE</span></span>
+						</a>
+					</li >
+					<li >
+						<a href="http://www.linkedin.com/pub/mehdi-medjaoui/45/1ba/971" rel="external">
+							<img src="img/SP2/Mehdi_Medjaoui.jpg" alt="Thumb">
+							<h4>Mehdi Medjaoui</h4>
+							<span class="desc">Founder</span>
+							<span class="bottom"><span>webshell</span></span>
+						</a>
+					</li>
+					 <li class="first">
+						<a href="http://www.linkedin.com/in/duvander" rel="external">
+							<img src="img/SP2/Adam_Duvander.png" alt="Thumb">
+							<h4>Adam Duvander</h4>
+							<span class="desc">Developer Relations Dir.</span>
+							<span class="bottom"><span>SENDGRID</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/maudemanouvrier" rel="external">
+							<img src="img/SP2/Maude_Manouvrier.jpg" alt="Thumb">
+							<h4>Maude Manouvrier </h4>
+							<span class="desc">Enseignante Chercheuse</span>
+							<span class="bottom"><span>Paris Dauphine</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/steveklabnik" rel="external">
+							<img src="img/SP2/Steve_Klabnik.png" alt="Thumb">
+							<h4>Steve Klabnik</h4>
+							<span class="desc">Hypermedia evangelist</span>
+							<span class="bottom"><span>Ruby Hero</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/guillaumebalas" rel="external">
+							<img src="img/SP2/Guillaume_Balas.png" alt="Thumb">
+							<h4>Guillaume Balas</h4>
+							<span class="desc">CMO</span>
+							<span class="bottom"><span>3SCALE</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://fr.linkedin.com/in/romainlalanne" rel="external">
+							<img src="img/SP2/Romain_Lalanne.png" alt="Thumb">
+							<h4>Romain Lalanne</h4>
+							<span class="desc">Responsable Open Data</span>
+							<span class="bottom"><span>SNCF</span></span>
+						</a>
+					</li>
+					<li class="first">
+						<a href="http://shane.caraveo.com/" rel="external">
+							<img src="img/SP2/Shane_Caraveo.png" alt="Thumb">
+							<h4>Shane Caraveo</h4>
+							<span class="desc">Social API </span>
+							<span class="bottom"><span>MOZILLA</span></span>
+						</a>
+					</li>
+					<li >
+						<a href="https://twitter.com/iChaib" rel="external">
+							<img src="img/SP2/Simon_Redfern.png" alt="Thumb">
+							<h4>Simon Redfern</h4>
+							<span class="desc">Founder</span>
+							<span class="bottom"><span>Open Bank Project</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/eliechevignard" rel="external">
+							<img src="img/SP2/Elie_Chevignard.png" alt="Thumb">
+							<h4>Elie Chevignard</h4>
+							<span class="desc">CMO</span>
+							<span class="bottom"><span>MAILJET</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/ajotwani" rel="external">
+							<img src="img/SP2/Amit_Jotwani.png" alt="Thumb">
+							<h4>Amit Jotwani</h4>
+							<span class="desc">Developer Evangelist</span>
+							<span class="bottom"><span>MASHERY</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/reubenkatz" rel="external">
+							<img src="img/SP2/Reuben_Katz.png" alt="Thumb">
+							<h4>Reuben Katz</h4>
+							<span class="desc">CEO &amp; Founder</span>
+							<span class="bottom"><span>GEEKLIST</span></span>
+
+						</a>
+					</li>
+					<li class="first">
+						<a href="http://www.linkedin.com/in/sarid" rel="external">
+							<img src="img/SP2/Uri_Sarid.png" alt="Thumb">
+							<h4>Uri Sarid</h4>
+							<span class="desc">CTO</span>
+							<span class="bottom"><span>MULESOFT</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/isamauny" rel="external">
+							<img src="img/SP2/Isabelle_Mauny.png" alt="Thumb">
+							<h4>Isabelle Mauny</h4>
+							<span class="desc">Product Management Dir.</span>
+							<span class="bottom"><span>WSO2</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/nesetril" rel="external">
+							<img src="img/SP2/Jakub_Nesetril.png" alt="Thumb">
+							<h4>Jakub Nesetril</h4>
+							<span class="desc">CEO</span>
+							<span class="bottom"><span>APIARY.IO</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://ca.linkedin.com/in/paulosman" rel="external">
+							<img src="img/SP2/Paul_Osman.png" alt="Thumb">
+							<h4>Paul Osman</h4>
+							<span class="desc">API Evangelist</span>
+							<span class="bottom"><span>SOUNDCLOUD</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/ronniemitra" rel="external">
+							<img src="img/SP2/Ronnie_Mitra.png" alt="Thumb">
+							<h4>Ronnie Mitra</h4>
+							<span class="desc">API architect</span>
+							<span class="bottom"><span>LAYER7</span></span>
+						</a>
+					</li>
+					<li class="first">
+						<a href="http://www.linkedin.com/in/aurelienpelletier" rel="external">
+							<img src="img/SP2/Aurelien_Pelletier.png" alt="Thumb">
+							<h4>Aurelien Pelletier</h4>
+							<span class="desc">CTO</span>
+							<span class="bottom"><span>SFEIR</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/gmusquet" rel="external">
+							<img src="img/SP2/GaelMusquet.png" alt="Thumb">
+							<h4>Gael Musquet</h4>
+							<span class="desc">Président</span>
+							<span class="bottom"><span>OpenStreetMap France</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/pub/alex-williams/1/858/279/" rel="external">
+							<img src="img/SP2/Alex_Williams.png" alt="Thumb">
+							<h4>Alex Williams</h4>
+							<span class="desc">Enterprise Editor</span>
+							<span class="bottom"><span>Techcrunch</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/pub/kat-borlongan/44/576/411" rel="external">
+							<img src="img/SP2/kat_borlongan.jpg" alt="Thumb">
+							<h4>Kat Borlongan</h4>
+							<span class="desc">CEO &amp; Founder</span>
+							<span class="bottom"><span>FivebyFive</span></span>
+						</a>
+					</li>
+					<li >
+						<a href="http://www.linkedin.com/in/waxzce" rel="external">
+							<img src="img/SP2/Quentin_Adam.jpg" alt="Thumb">
+							<h4>Quentin Adam</h4>
+							<span class="desc">CEO &amp; Founder</span>
+							<span class="bottom"><span>Clever Cloud</span></span>
+						</a>
+					</li>
+					<li class="first">
+						<a href="http://www.rackspace.com/blog/author/ken-wronkiewicz/" rel="external">
+							<img src="img/SP2/Ken_Wronkiewicz.jpg" alt="Thumb">
+							<h4>Ken Wronkiewicz</h4>
+							<span class="desc">Lead Engineer Autoscaling</span>
+							<span class="bottom"><span>Rackspace</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/philippesayegh" rel="external">
+							<img src="img/SP2/Philippe_Sayegh.jpg" alt="Thumb">
+							<h4>Philippe Sayegh</h4>
+							<span class="desc">Director France</span>
+							<span class="bottom"><span>Janrain</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/audreywatters" rel="external">
+							<img src="img/SP2/Audrey_Watters.png" alt="Thumb">
+							<h4>Audrey Watters</h4>
+							<span class="desc">Education Writer</span>
+							<span class="bottom"><span>Hack Education</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/jeffboudier" rel="external">
+							<img src="img/SP2/Jeff_Boudier.jpg" alt="Thumb">
+							<h4>Jeff Boudier</h4>
+							<span class="desc">US Cofounder</span>
+							<span class="bottom"><span>Stupeflix</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/julieknibbe" rel="external">
+							<img src="img/SP2/Julie_Knibbe.jpg" alt="Thumb">
+							<h4>Julie Knibbe</h4>
+							<span class="desc">Developer Advocacy Lead</span>
+							<span class="bottom"><span>Deezer</span></span>
+						</a>
+					</li>
+					<li class="first">
+						<a href="http://fr.linkedin.com/in/sophiakc" rel="external">
+							<img src="img/SP2/Sophia_Kc.jpg" alt="Thumb">
+							<h4>Sophia Kecir Camper</h4>
+							<span class="desc">Founder</span>
+							<span class="bottom"><span>Flashmatic</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/rafihaladjian" rel="external">
+							<img src="img/SP2/Rafi_Haladjian.jpg" alt="Thumb">
+							<h4>Rafi Haladjian</h4>
+							<span class="desc">Founder</span>
+							<span class="bottom"><span>Sen.se</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/herberts" rel="external">
+							<img src="img/SP2/Mathias_Herberts.jpg" alt="Thumb">
+							<h4>Mathias Herberts</h4>
+							<span class="desc">CTO &amp; Cofounder</span>
+							<span class="bottom"><span>Cityzen Data</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/in/benjamincabe" rel="external">
+							<img src="img/SP2/Benjamin_Cabe.jpg" alt="Thumb">
+							<h4>Benjamin Cabe</h4>
+							<span class="desc">M2M Evangelist</span>
+							<span class="bottom"><span>Sierra Wireless</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/paymill_tb" rel="external">
+							<img src="img/SP2/Tschela_Baumann.png" alt="Thumb">
+							<h4>Tschela Baumann</h4>
+							<span class="desc">Senior Developer</span>
+							<span class="bottom"><span>Paymill</span></span>
+						</a>
+					</li>
+					<li class="first">
+						<a href="https://twitter.com/lck" rel="external">
+							<img src="img/SP2/Romain_Goyet.png" alt="Thumb">
+							<h4>Romain Goyet</h4>
+							<span class="desc">Founder</span>
+							<span class="bottom"><span>Applidium</span></span>
+						</a>
+					</li>
+				</ul>
+				<p class="intro">More to come...</p>
+				<div style="margin-bottom: 80px">
+					<div class="btn">
+						<a style="width: 443px; margin: 0 auto; float: none; display: block" href="http://www.apidays2013.eventbrite.fr" class="keynote" rel="external">
+							<span class="picto"></span>
+							<span class="name">register to the conference</span>
+						</a>
+					</div>
+					<hr style="margin-top: 30px; border: 1px solid #DDD" />
+					<div style="color: black; font-size: 1.9em; margin-top: 40px;text-align: center">
+						<img height="80" src="img/apihackday_logo.png"> <span style="position: relative; left: 15px; top: -30px"><span style="font-size: 3.0em">&amp;</span> <img style="position: relative; left: 15px;" height="40" src="img/logo_codeforparis.png"></span>
+						<br />
+						<span>December 6, 7 &amp; 8</span>
+						<span>ICI Montreuil, Montreuil</span>
+					</div>
+					<div class="btn" style="margin-top: 15px">
+						<a style="width: 396px; margin: 0 auto; float: none; display: block" href="http://www.eventbrite.fr/e/billets-api-hackday-code-for-paris-region-8611424001" class="register" rel="external">
+							<span class="picto"></span>
+							<span class="name">register to API Hackday</span>
 						</a>
 					</div>
 				</div>
 			</div>
-			<div id="home2" data-backstretch="img/bg-home2.jpg">
-				<div class="wrapper-content">
-					<div class="middle">
-						<span class="picto"></span>
-						<img src="img/logo-elysees-biarritz.png" alt="Elysée Biarritz">
+		</div>
+		<div id="home2" data-backstretch="img/bg-home2.jpg">
+			<div class="wrapper-content">
+				<div class="middle">
+					<span class="picto"></span>
+					<img src="img/logo-elysees-biarritz.png" alt="Elysée Biarritz">
+				</div>
+			</div>
+		</div>
+		<div id="sponsors">
+			<div class="wrapper-content">
+				<h3>Sponsors &amp; media</h3>
+				<h4>Gold</h4>
+				<ul class="gold">
+					<li class="first3">
+						<a href="http://www.hp.com/fr" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-hp.png" alt="hp">
+								</div>
+							</div>
+							<span class="name">Hewlet Packard</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.apispark.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-restlet.jpg" alt="APISpark">
+								</div>
+							</div>
+							<span class="name">APISpark by Restlet</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.layer7tech.com/" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/layer7.png" alt="Layer7">
+								</div>
+							</div>
+							<span class="name">LAYER7 Technologies</span>
+						</a>
+					</li>
+				</ul>
+				<h4>Silver</h4>
+				<ul class="gold">
+					<li class="first3">
+						<a href="http://www.microsoft.fr" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-microsoft.jpg" alt="Microsoft">
+								</div>
+							</div>
+							<span class="name">Microsoft</span>
+						</a>
+					</li>
+					<li>
+					<a href="http://www.ibm.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo_ibm.jpg" alt="IBM">
+								</div>
+							</div>
+							<span class="name">IBM</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://3scale.net" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/3SCALE.png" alt="3Scale">
+								</div>
+							</div>
+							<span class="name">3Scale</span>
+						</a>
+					</li>
+					<li class="first">
+						<a href="http://www.capdigital.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-cap.png" alt="Cap Digital">
+								</div>
+							</div>
+							<span class="name">Cap Digital</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.intel.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-intel.jpg" alt="Intel">
+								</div>
+							</div>
+							<span class="name">Intel</span>
+						</a>
+					</li>
+					<li class="first">
+						<a href="http://www.soa.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-soa.png" alt="SOA Software">
+								</div>
+							</div>
+							<span class="name">SOA Software</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.context.io" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-contextio.png" alt="Context.io">
+								</div>
+							</div>
+							<span class="name">Context.io</span>
+						</a>
+					</li>
+				</ul>
+				<h4>Bronze</h4>
+				<ul class="gold">
+					<li class="first3">
+						<a href="http://www.buzzaka.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-buzzaka.jpg" alt="Buzzaka">
+								</div>
+							</div>
+							<span class="name">Buzzaka</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://oauth.io" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/OAuthio.png" alt="OAuth.io">
+								</div>
+							</div>
+							<span class="name">OAuth.io</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://simplon.co" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-simplon.png" alt="Simplon">
+								</div>
+							</div>
+							<span class="name">Simplon</span>
+						</a>
+					</li>
+					<li class="first3">
+						<a href="https://mailjet.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-mailjet.png" alt="Mailjet">
+								</div>
+							</div>
+							<span class="name">Mailjet</span>
+						</a>
+					</li>
+					<li >
+						<a href="https://www.paymill.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-paymill.png" alt="Paymill">
+								</div>
+							</div>
+							<span class="name">Paymill</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.mashape.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-mashape.png" alt="Mashape">
+								</div>
+							</div>
+							<span class="name">Mashape</span>
+						</a>
+					</li>
+					<li class="first">
+						<a href="http://www.epita.fr" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-epita.png" alt="Epita">
+								</div>
+							</div>
+							<span class="name">Epita</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.epitech.fr" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-epitech.png" alt="Epita">
+								</div>
+							</div>
+							<span class="name">Epitech</span>
+						</a>
+					</li>
+				</ul>
+				<h4>Media &amp; Partners</h4>
+				<ul class="gold">
+					<li class="first" >
+						<a href="http://www.frenchweb.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo_frenchweb.jpg" alt="TechCrunch">
+								</div>
+							</div>
+							<span class="name">Frenchweb</span>
+						</a>
+					</li>
+					<li> 
+						<a href="http://techcrunch.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo_techcrunch.png" alt="TechCrunch">
+								</div>
+							</div>
+							<span class="name">TechCrunch</span>
+						</a>
+					</li>
+				</ul>    
+				<h5></h5>
+				<ul class="gold">
+					<li class="first3">
+						<a href="http://www.satellinet.fr/" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-satellinet.jpg" alt="Satellinet">
+								</div>
+							</div>
+							<span class="name">Satellinet</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://api500.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/API500.png" alt="API 500">
+								</div>
+							</div>
+							<span class="name">API 500</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://www.programmableweb.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-pw.png" alt="Programmable Web">
+								</div>
+							</div>
+							<span class="name">Programmable Web</span>
+						</a>
+					</li>
+					<li class="first">
+						<a href="http://www.maddyness.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-maddyness.png" alt="Maddyness">
+								</div>
+							</div>
+							<span class="name">Maddyness</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://rudebaguette.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-rb.jpg" alt="Rude Baguette">
+								</div>
+							</div>
+							<span class="name">Rude Baguette</span>
+						</a>
+					</li>
+					<li class="first">
+						<a href="http://mash-up.fr" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo_mashup.png" alt="Le Mash Up">
+								</div>
+							</div>
+							<span class="name">Le Mash Up</span>
+						</a>
+					</li>
+					<li>
+						<a href="http://flashmatic.co" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-flashmatic.png" alt="Flashmatic">
+								</div>
+							</div>
+							<span class="name">Flashmatic</span>
+						</a>
+					</li>
+				</ul>
+				<h4>Hackathon</h4>
+				<ul class="gold">
+					<li class="first3">
+						<a href="http://www.capdigital.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-cap.png" alt="Capdigital">
+								</div>
+							</div>
+							<span class="name">Capdigital</span>
+						</a>
+					</li>
+					<li> 
+						<a href="http://mashery.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-mashery.jpg" alt="Mashery">
+								</div>
+							</div>
+							<span class="name">Mashery</span>
+						</a>
+					</li>
+					<li> 
+						<a href="http://sendgrid.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-sendgrid.jpg" alt="Sendgrid">
+								</div>
+							</div>
+							<span class="name">Sendgrid</span>
+						</a>
+					</li>
+					<li class="first"> 
+						<a href="http://twilio.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-twilio.png" alt="Twilio">
+								</div>
+							</div>
+							<span class="name">Twilio</span>
+						</a>
+					</li>
+					<li> 
+						<a href="http://tokbox.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-tokbox.jpg" alt="Tokbox">
+								</div>
+							</div>
+							<span class="name">Tokbox</span>
+						</a>
+					</li>
+					<li class="first"> 
+						<a href="https://oauth.io" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/OAuthio.png" alt="OAuth.io">
+								</div>
+							</div>
+							<span class="name">OAuth.io</span>
+						</a>
+					</li>
+					<li> 
+						<a href="http://apispark.com" rel="external">
+							<div class="logo">
+								<div>
+									<img src="img/logo-restlet.jpg" alt="API Spark">
+								</div>
+							</div>
+							<span class="name">API Spark</span>
+						</a>
+					</li>
+				</ul>    
+
+			</div>
+		</div>
+		<div id="organizers">
+			<div class="wrapper-content">
+				<h3>Organizers</h3>
+				<div class="double-cols">
+					<div class="left">
+						<div class="logo"><img src="img/logo-fabernovel.png" alt="fabernovel"></div>
+						<h4>We work with global leading companies to help them build growth at startup speed.</h4>
+						<p style="position: relative; top: -15px">Every day, we bring together big and small companies to launch breakthrough customer experiences. <a href="http://www.fabernovel.com" rel="external"> FABERNOVEL </a> clients include: RATP, SNCF, SFR, L’OREAL, SUEZ ENVIRONNEMENT, EDF, SANOFI, BIOMERIEUX.</p>
+					</div>
+					<div class="right">
+						<div class="logo"><img src="img/logo-webshell.png" alt="webshell" style="position: relative; top: -9px"></div>
+						<h4>Webshell makes API integration easy for developers.</h4><br>
+						<p><a href="http://www.webshell.io" rel="external">WEBSHELL</a> develops tools for making API integration easier for developers on authentication, scripting and widgets, in Paris, and manages the {<a href="http://apijoy.tumblr.com/" rel="external">"apis":"the joy"} blog.</a></p>
 					</div>
 				</div>
 			</div>
+			<br><br><br><br><br>
+		</div>
+		<div id="api">
+			<div class="wrapper-content">
+				<h3>APIdays 2013</h3>
+				<div class="content">
+					<p class="intro" style="margin-bottom: 0">The web 1.0 was readable, the web 2.0 was social,
+						<span class="middle">now the web is programmable</span>
+						trough application programming interfaces,
+						<span class="big">aka apis.</span>
+					</p>
 
-			<div id="sponsors">
-				<div class="wrapper-content">
-					<h3>Sponsors &amp; media</h3>
-					<h4>Gold</h4>
-					<ul class="gold">
-						<li class="first3">
-							<a href="http://www.hp.com/fr" rel="external">
-								<div class="logo">
-									<div>
-										<img src="img/logo-hp.png" alt="hp">
-									</div>
-								</div>
-								<span class="name">Hewlet Packard</span>
-							</a>
-						</li>
-						<li>
-							<a href="http://www.apispark.com" rel="external">
-								<div class="logo">
-									<div>
-										<img src="img/logo-restlet.jpg" alt="APISpark">
-									</div>
-								</div>
-								<span class="name">APISpark by Reslet</span>
-							</a>
-						</li>
-						<li>
-							<a href="http://www.layer7tech.com/" rel="external">
-								<div class="logo">
-									<div>
-										<img src="img/layer7.png" alt="Layer7">
-									</div>
-								</div>
-								<span class="name">LAYER7 Technologies</span>
-							</a>
-						</li>
-					</ul>
-					<h4>Silver</h4>
-					<ul class="silver">
-						<li class="first">
-							<a href="http://www.microsoft.fr" rel="external">
-								<div class="logo">
-									<div>
-										<img src="img/logo-microsoft.jpg" alt="Microsoft">
-									</div>
-								</div>
-								<span class="name">Microsoft</span>
-							</a>
-						</li>
-						<li>
-							<a href="http://3scale.net" rel="external">
-								<div class="logo">
-									<div>
-										<img src="img/3SCALE.png" alt="3Scale">
-									</div>
-								</div>
-								<span class="name">3Scale</span>
-							</a>
-						</li>
-                    </ul>
-                    <h4>Bronze</h4>
-					<ul class="bronze">
-						<li class="first">
-							<a href="http://www.buzzaka.com" rel="external">
-								<div class="logo">
-									<div>
-										<img src="img/logo-buzzaka.jpg" alt="Buzzaka">
-									</div>
-								</div>
-								<span class="name">Buzzaka</span>
-							</a>
-						</li>
-						<li>
-							<a href="https://oauth.io" rel="external">
-								<div class="logo">
-									<div>
-										<img src="img/OAuthio.png" alt="OAuth.io">
-									</div>
-								</div>
-								<span class="name">OAuth.io</span>
-							</a>
-						</li>
-                        
-                    </ul>
-
-                    <h4>Media</h4>
-					<ul class="media">
-						<li class="first">
-							<a href="http://techcrunch.com" rel="external">
-								<div class="logo">
-									<div>
-										<img src="img/logo_techcrunch.png" alt="TechCrunch">
-									</div>
-								</div>
-								<span class="name">TechCrunch US</span>
-							</a>
-						</li>
-						<li>
-							<a href="http://api500.com" rel="external">
-								<div class="logo">
-									<div>
-										<img src="img/API500.png" width="150" height="150" alt="API 500">
-									</div>
-								</div>
-								<span class="name">API 500</span>
-							</a>
-						</li>
-                        <!--<li class="first">
-							<a href="http://www.satellinet.fr/" rel="external">
-								<div class="logo">
-									<div>
-										<img src="img/logo-satellinet.png" width="150" height="150" alt="Satellinet">
-									</div>
-								</div>
-								<span class="name">Satellinet</span>
-							</a>
-						</li>
-                        <li>
-							<a href="http://www.maddyness.fr/" rel="external">
-								<div class="logo">
-									<div>
-										<img src="img/logo-maddyness.png" width="150" height="150" alt="API 500">
-									</div>
-								</div>
-								<span class="name">Maddyness</span>
-							</a>
-						</li>-->
-                    </ul>
+					<h3 style="margin-top: 0">“Software is eating the world”</h3><p style="font-size: 3.0em; text-align: center;">said Marc Andreessen in 2011.</p><br><br>
+					<p>Since a few years, web Applications Programming Interfaces, aka APIs are disrupting this Software industry by defining either a new technical and commercial access and relation between applications developers and companies.</p>
+					<p>These technical interfaces completely change the partnership and developer relationship for deep integration in a self-service model that leverage the accessibility and the openness of the web.</p>
+					<p>APIs can reduce global integration process time from months to minutes and can leverage an ecosystem of applications in an effective lean open innovation model.</p>
+					<p>These technical and business interfaces made the success of the new giants of the IT industry.</p>
+					<p>APIdays annual conference, with the presence or worldwide speakers will present all the opportunities to better understand paradigms behind APIs, thinking the future of Software through APIs, on Cloud, Big Data and Internet of Things topics.</p><br><br>
+					<p style="font-size: 3.0em; text-align: center">Now we can say, as Steven Willmott CEO of 3Scale, during last APIdays conference in San Francisco that:</p>
+					<h3 style="padding-top: 0; margin-top: 0px">“if Software is eating the world,<br> <span style="font-size: 1.2em; font-weight: bold">APIs are eating software</span>.”</h3>
+					<br><br>
 				</div>
 			</div>
-			<div id="organizers">
-				<div class="wrapper-content">
-					<h3>Organizers</h3>
-					<div class="double-cols">
-						<div class="left">
-							<div class="logo"><img src="img/logo-fabernovel.png" alt="fabernovel"></div>
-							<h4>We work with global leading companies to help them build growth at startup speed.</h4>
-							<p style="position: relative; top: -15px">Every day, we bring together big and small companies to launch breakthrough customer experiences. <a href="http://www.fabernovel.com" rel="external"> FABERNOVEL </a> clients include : RATP, SNCF, SFR, L’OREAL, SUEZ ENVIRONNEMENT, EDF, SANOFI, BIOMERIEUX.</p>
+		</div>
+		<div id="pratical">
+			<div class="wrapper-content">
+				<h3>PRACTICAL DETAILS</h3>
+				<div class="double-cols">
+					<div class="left">
+						<h4>When &amp; where ?</h4>
+						<div class="content">
+							<span class="sub">4 &amp; 5 December, 2013</span>
+							<ul>
+								<li>ELYSEES BIARRITZ</li>
+								<li>Right on Champs Elysées</li>
+								<li>22-24 rue Quentin Bauchart</li>
+								<li>75008 Paris</li>
+							</ul>
 						</div>
-						<div class="right">
-							<div class="logo"><img src="img/logo-webshell.png" alt="webshell" style="position: relative; top: -9px"></div>
-							<h4>Webshell makes API integration easy for developers.</h4><br>
-							<p><a href="http://www.webshell.io" rel="external">WEBSHELL</a> develops tools for making API integration easier for developers on authentication, scripting and widgets, in Paris, and manages the {<a href="http://apijoy.tumblr.com/" rel="external">"apis":"the joy"} blog.</a></p>
+						<div class="contact">
+							<span class="title">
+								<span>Any questions ? </span> Please feel free  to contact us
+							</span>
+							<a href="mailto:contact@apidays.io" rel="external">
+								<span class="picto">Picto</span>
+								<span class="mail">contact@apidays.io</span>
+							</a>
 						</div>
 					</div>
-				</div>
-				<br><br><br><br><br>
-			</div>
-			<div id="api">
-				<div class="wrapper-content">
-					<h3>APIdays 2013</h3>
-					<div class="content">
-						<p class="intro" style="margin-bottom: 0">The web 1.0 was readable, the web 2.0 was social,
-							<span class="middle">now the web is programmable</span>
-							trough application programming interfaces,
-							<span class="big">aka apis.</span>
-						</p>
-
-                        <h3 style="margin-top: 0">“Software is eating the world”</h3><p style="font-size: 3.0em; text-align: center;">said Marc Andreessen in 2011.</p><br><br>
-						<p>Since a few years, web Applications Programming Interfaces, aka APIs are disrupting this Software industry by defining either a new technical and commercial access and relation between applications developers and companies.</p>
-						<p>These technical interfaces completely change the partnership and developer relationship for deep integration in a self-service model that leverage the accessibility and the openness of the web.</p>
-						<p>APIs can reduce global integration process time from months to minutes and can leverage an ecosystem of applications in an effective lean open innovation model.</p>
-						<p>These technical and business interfaces made the success of the new giants of the IT industry.</p>
-						<p>APIdays annual conference, with the presence or worldwide speakers will present all the opportunities to better understand paradigms behind APIs, thinking the future of Software through APIs, on Cloud, Big Data and Internet of Things topics.</p><br><br>
-						<p style="font-size: 3.0em; text-align: center">Now we can say, as Steven Willmott CEO of 3Scale, during last APIdays conference in San Francisco that :</p>
-						<h3 style="padding-top: 0; margin-top: 0px">“if Software is eating the world,<br> <span style="font-size: 1.2em; font-weight: bold">APIs are eating software</span>.”</h3>
-						<br><br>
-					</div>
-				</div>
-            </div>
-			<div id="pratical">
-				<div class="wrapper-content">
-					<h3>PRACTICAL DETAILS</h3>
-					<div class="double-cols">
-						<div class="left">
-							<h4>When &amp; where ?</h4>
-							<div class="content">
-								<span class="sub">4 &amp; 5 December, 2013</span>
+					<div class="right">
+						<h4>HOW TO GET THERE ?</h4>
+						<div class="content">
+							<div class="box">
+								<span class="sub">METRO</span>
 								<ul>
-									<li>ELYSEES BIARRITZ</li>
-									<li>Right on Champs Elysées</li>
-									<li>22-24 rue Quentin Bauchart</li>
-									<li>75008 Paris</li>
+									<li>George V   /   Charles de Gaulle Etoile</li>
+									<li>Franklin Roosevelt</li>
 								</ul>
 							</div>
-							<div class="contact">
-								<span class="title">
-									<span>Any questions ? </span> Please feel free  to contact us
-								</span>
-								<a href="mailto:contact@apidays.io" rel="external">
-									<span class="picto">Picto</span>
-									<span class="mail">contact@apidays.io</span>
-								</a>
-							</div>
-						</div>
-						<div class="right">
-							<h4>HOW TO GET THERE ?</h4>
-							<div class="content">
-								<div class="box">
-									<span class="sub">METRO</span>
-									<ul>
-										<li>George V   /   Charles de Gaulle Etoile</li>
-										<li>Franklin Roosevelt</li>
-									</ul>
-								</div>
-								<div class="box">
-									<span class="sub">PARKINGS</span>
-									<ul>
-										<li>George V (av des champs élysées) > Closest</li>
-										<li>Pierre Charron (rue Pierre Charron)</li>
-										<li>Berri (rue de Berri)</li>
-									</ul>
-								</div>
+							<div class="box">
+								<span class="sub">PARKINGS</span>
+								<ul>
+									<li>George V (av des champs élysées) > Closest</li>
+									<li>Pierre Charron (rue Pierre Charron)</li>
+									<li>Berri (rue de Berri)</li>
+								</ul>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="map">
-					<img src="img/map.jpg" alt="" style="display:block;margin:0 auto;width:100%;height:auto;">
-					<div class="bottom">
-						<a href="http://www.apidays2013.eventbrite.com" rel="external">
-							<span class="picto">Picto</span>
-							<span class="name">Register</span>
-						</a>
-					</div>
-				</div>
-				<div class="quote">
-					We are looking forward to meet you !<span> apidays is an event propulsed by fabernovel &amp; webshell</span>
 				</div>
 			</div>
-			<footer id="footer" data-backstretch="img/bg-footer.jpg">
-				<div id="fonz">
-					<p>
-						<img src="img/fonz_01.png" id="fonz-01-img">
-						<img src="img/fonz_02.png" id="fonz-02-img">
-						<img src="img/fonz_03.png" id="fonz-03-img">
-						<img src="img/fonz_04.png" id="fonz-04-img">
-					</p>
+			<div class="map">
+				<img src="img/map.jpg" alt="" style="display:block;margin:0 auto;width:100%;height:auto;">
+				<div class="bottom">
+					<a href="http://www.apidays2013.eventbrite.com" rel="external">
+						<span class="picto">Picto</span>
+						<span class="name">Register</span>
+					</a>
 				</div>
-			</footer>
+			</div>
+			<div class="quote">
+				We are looking forward to meet you ! <span>apidays is an event propulsed by fabernovel &amp; webshell</span>
+			</div>
+		</div>
+		<footer id="footer" data-backstretch="img/bg-footer.jpg">
+			<div id="fonz">
+				<p>
+					<img src="img/fonz_01.png" id="fonz-01-img">
+					<img src="img/fonz_02.png" id="fonz-02-img">
+					<img src="img/fonz_03.png" id="fonz-03-img">
+					<img src="img/fonz_04.png" id="fonz-04-img">
+				</p>
+			</div>
+		</footer>
 		<script src="js/jquery-1.9.1.min.js"></script>
 		<script src="js/waypoints.min.js"></script>
 		<script src="js/jquery.backstretch.min.js"></script>
 		<script src="js/paper.min.js" id="paperJs"></script>
 		<script src="js/bg.min.js" canvas="draw" id="bgJs"></script>
 		<script src="js/common.js"></script>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-35699861-1']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl': 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-35699861-4', 'apidays.io');
+		  ga('send', 'pageview');
+		</script>
+			
 	</body>
+
 </html>

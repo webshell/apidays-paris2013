@@ -197,6 +197,21 @@ ol li {
   background-color: #3ca2c0;
   color: #ffffff;
 }
+.hr_short {
+  width: 200px;
+  border-top : 1px solid #fff;
+  margin-left: 0px;
+}
+.hr_long_bt {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.hr_long_b {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
 h3 {
   font-family: 'misolight', Arial;
   font-size: 95px;
@@ -303,15 +318,21 @@ h3 {
   display: block;
   margin: 0 auto 22px auto;
 }
+
 #program {
   min-height: 1200px;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 #program h3 {
   background-position: center -218px;
 }
 #program .double-cols {
   margin-top: 25px;
+  padding-bottom: 50px;
+}
+#agenda .double-cols h4 {
+  color: black !important;
+  border-color: black !important;
 }
 #program .double-cols h4 {
   color: #fff;
@@ -327,6 +348,7 @@ h3 {
 #program .double-cols ul li {
   color: #fff;
   margin-top: 15px;
+  margin-bottom: 15px
 }
 #program .double-cols ul li:first-child {
   margin-top: 0;
@@ -334,19 +356,100 @@ h3 {
 #program .double-cols ul li .hours {
   font-size: 40px;
   font-family: 'misolight', Arial;
-  text-transform: uppercase;
+  text-transform: uppercase;    
+ margin-top: 15px;
 }
 #program .double-cols ul li .activity {
   display: block;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 1.2;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'misolight', Arial, Helvetica, sans-serif;
 }
+#program .double-cols ul li .activity2 {
+  display: block;
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: 'misobold', Arial, Helvetica, sans-serif;
+  padding-top: 12px;
+}
+#program .double-cols ul li .speakers {
+  display: block;
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: 'misolight', Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+}
+
 #program .double-cols ul li .line {
   font-size: 26px;
   text-transform: uppercase;
   margin-left: 10px;
 }
+
+
+#program .dble-footer {
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border-top: 1px solid #fff;
+}
+#program .dble-footer .dble-footer-centered {
+  margin: 0 auto;
+}
+#program .dble-footer .speakers {
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: 'misolight', Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+.dble-footer-centered {
+  width: 216px;
+  margin: 0 auto;
+}
+.dble-footer-centered a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 34px;
+  color: #3ca2c0;
+  font-family: 'misobold', Arial;
+}
+.dble-footer-centered a:before,
+.dble-footer-centered a:after {
+  content: " ";
+  display: table;
+}
+.dble-footer-centered a:after {
+  clear: both;
+}
+.dble-footer-centered a span {
+  display: inline-block;
+  float: left;
+}
+.dble-footer-centered a .picto {
+  padding: 67px 0 0 67px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  background: url(../img/picto-btn-home.png) no-repeat;
+  z-index: 4;
+}
+.dble-footer-centered a .name {
+  padding: 17px 18px 16px 18px;
+  margin-left: 3px;
+}
+.dble-footer-centered a.register {
+}
+.dble-footer-centered a.register .picto {
+  background-color: #fff;
+  background-position: 15px 15px;
+}
+.dble-footer-centered a.register .name {
+  background-color: #fff;
+}
+
+
 #speakers {
   padding-top: 70px;
 }
@@ -462,6 +565,15 @@ h3 {
   background-position: center -932px;
   color: #3ca2c0;
 }
+#sponsors h5 {
+  border-bottom: 1px solid #3ca2c0;
+  width: 180px;
+  margin: 60px auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3ca2c0;
+  font-size: 48px;
+}
 #sponsors h4 {
   border-top: 1px solid #3ca2c0;
   border-bottom: 1px solid #3ca2c0;
@@ -485,7 +597,7 @@ h3 {
   float: left;
   margin-left: 18px;
   width: 181px;
-  margin: 0 0 30px 18px;
+  margin: 30px 0 30px 18px;
 }
 #sponsors ul li a {
   text-decoration: none;
@@ -729,4 +841,37 @@ h3 {
 }
 .yanone {
   font-family: Arial;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  {
+
+#nav .wrapper-content ul li a {
+  color: #3ca2c0;
+  font-size: 25px;
+  height: 55px;
+  line-height: 55px;
+  text-decoration: none;
+}
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+
+	#nav .wrapper-content ul li a {
+	  color: #3ca2c0;
+	  font-size: 45px;
+	  height: 75px;
+	  line-height: 55px;
+	  text-decoration: none;
+	}
+
+	#nav .wrapper-content ul {
+	float: left;
+	}
+
 }
