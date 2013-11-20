@@ -48,7 +48,7 @@ zf.init = function(){
 		});
 	}
 
-	// Blank links
+	// Blank links (why not use target="_blank" in the html?!)
 	$('a[rel=external]').click(function(){
 		window.open($(this).attr('href'));
 		return false;
@@ -57,7 +57,7 @@ zf.init = function(){
 	// Waypoints
 	zf.calculateWP();
 	zf.$stickyNav = $('#nav');
-	$('#wrapper > div').waypoint({
+	$('.waypoint').waypoint({
 		offset: function(){
 			return zf.wpOffset;
 		},
