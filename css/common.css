@@ -361,6 +361,8 @@ h3 {
 
 #program table .bubule {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   position: absolute;
   background-color: white;
   display: block;
@@ -369,12 +371,23 @@ h3 {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   padding: 5px 10px;
-  width: calc(100% - 10px);
   opacity: 0.9;
 }
 
 #program table .bubule strong {
   display: block;
+}
+
+.bubule.w1 {
+  width: 211px;
+}
+
+.bubule.w2 {
+  width: 431px;
+}
+
+.bubule.w4 {
+  width: 871px;
 }
 
 .bubule.m35 {
