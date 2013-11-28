@@ -35,7 +35,7 @@ zf.updateStickyNav = function($el){
 zf.init = function(){
 	$('body').addClass('js');
 	zf.headerH = $('#nav').outerHeight();
-	
+
 	// Placeholder fallback
 	if(!zf.placeholderSupport()){
 		$('input[placeholder]').each(function(i, el){
@@ -53,7 +53,7 @@ zf.init = function(){
 		window.open($(this).attr('href'));
 		return false;
 	});
-	
+
 	// Waypoints
 	zf.calculateWP();
 	zf.$stickyNav = $('#nav');
@@ -81,10 +81,10 @@ zf.init = function(){
 			}
 		}
 	});
-	
+
 	// Smooth scroll
 	$('.scroll-link, .scroll-links a, #menu a').click(function(){
-		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         && location.hostname == this.hostname) {
             var $target = $(this.hash);
             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
@@ -100,6 +100,22 @@ zf.init = function(){
     $('[data-backstretch]').each(function(){
 		$(this).backstretch($(this).data('backstretch'));
 	});
+
+	$('#program .bubule.tooltipHL, #program .bubule.tooltipHR').each(function() {
+		var c = $(this).attr('class').split(' ')
+		for (a in c) {
+			if (c[a].substr(0,1) == 'r') {
+				var time = $(this).parent().parent().find('td.first').html().split('h')
+				var min = parseInt(time[1]) + parseInt(c[a].substr(1))
+				var tooltip;
+				if ($(this).hasClass('tooltipHL'))
+					tooltip = '<div class="tooltip left" style="margin-top: -21px; margin-left: -76px"><div class="tooltip-inner">' + time[0] + 'h' + ((min < 10) ? '0' + min : min) + '</div><div class="tooltip-arrow"></div></div>'
+				else
+					tooltip = '<div class="tooltip right" style="margin-top: -21px; margin-left: 207px"><div class="tooltip-inner">' + time[0] + 'h' + ((min < 10) ? '0' + min : min) + '</div><div class="tooltip-arrow"></div></div>'
+				$(this).prepend(tooltip)
+			}
+		}
+	})
 };
 
 zf.calculateWP = function(){
