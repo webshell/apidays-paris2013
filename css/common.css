@@ -359,7 +359,7 @@ h3 {
   vertical-align: top
 }
 
-#program table tr.time .bubule {
+#program table .bubule {
   box-sizing: border-box;
   position: absolute;
   background-color: white;
@@ -449,6 +449,12 @@ h3 {
 .bubule.r25b {
   margin-top: 115px;
 }
+
+#program table .bubule.pause {
+  background-color: rgb(60, 162, 192) !important;
+  color: white !important;
+}
+
 #program table th:not(.first) {
   border-right: 1px solid white;
 }
