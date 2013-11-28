@@ -322,10 +322,147 @@ h3 {
 #program {
   min-height: 1200px;
   padding-top: 50px;
+  background-color: rgb(60, 162, 192);
 }
 #program h3 {
   background-position: center -218px;
 }
+
+#program table th, #program table td {
+  font-size: 2.0em;
+  padding: 4px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  position: relative;
+}
+
+#program table td.first, #program table th.first {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+#program table th.first {
+  border-top: 0px solid white;
+  border-left: 0px solid white;
+}
+
+#program table td.sep {
+  border-right: 1px solid white;
+}
+
+#program table tr.time {
+  height: 130px;
+  vertical-align: top;
+}
+
+#program table tr.time td.first {
+  vertical-align: top
+}
+
+#program table tr.time .bubule {
+  box-sizing: border-box;
+  position: absolute;
+  background-color: white;
+  display: block;
+  color: black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 5px 10px;
+  width: calc(100% - 10px);
+  opacity: 0.9;
+}
+
+#program table .bubule strong {
+  display: block;
+}
+
+.bubule.m35 {
+  height: 117px;
+}
+
+.bubule.m45 {
+  height: 185px;
+}
+
+.bubule.m40 {
+  height: 165px;
+}
+
+.bubule.m30 {
+  height: 120px;
+}
+
+.bubule.m30b {
+  height: 125px;
+}
+
+.bubule.m25 {
+  height: 105px;
+}
+
+.bubule.m25b {
+  height: 100px;
+}
+
+.bubule.m20 {
+  height: 80px;
+}
+
+.bubule.m20b {
+  height: 75px;
+}
+
+.bubule.m10 {
+  height: 40px;
+}
+
+.bubule.r5 {
+  margin-top: 20px;
+}
+
+.bubule.r5b {
+  margin-top: 15px;
+}
+
+.bubule.r10 {
+  margin-top: 40px;
+}
+.bubule.r15 {
+  margin-top: 60px;
+}
+.bubule.r15b {
+  margin-top: 70px;
+}
+.bubule.r20 {
+  margin-top: 90px;
+}
+
+.bubule.r20b {
+  margin-top: 85px;
+}
+
+.bubule.r25 {
+  margin-top: 110px;
+}
+
+.bubule.r25b {
+  margin-top: 115px;
+}
+#program table th:not(.first) {
+  border-right: 1px solid white;
+}
+
+#program table td span.title {
+  display: block;
+}
+
+#program table th {
+  font-size: 25px;
+}
+
+#program table td.centered { text-align: center;}
+
 #program .double-cols {
   margin-top: 25px;
   padding-bottom: 50px;
